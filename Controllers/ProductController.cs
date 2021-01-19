@@ -22,7 +22,7 @@ namespace DMKit.WebApi.Controllers
         [HttpGet]
         public Product Get()
         {
-           return new Product();
+            return new Product();
         }
     }
 }
