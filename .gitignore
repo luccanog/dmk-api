@@ -443,3 +443,5 @@ $RECYCLE.BIN/
 !.vscode/extensions.json
 obj/Debug/net5.0/DMKit.WebApi.csprojAssemblyReference.cache
 obj/Debug/net5.0/DMKit.WebApi.csprojAssemblyReference.cache
+.vscode/launch.json
+.vscode/tasks.json
