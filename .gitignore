@@ -28,6 +28,7 @@ x86/
 bld/
 [Bb]in/
 [Oo]bj/
+[Oo]bj/Debug
 [Ll]og/
 [Ll]ogs/
 
@@ -440,3 +441,5 @@ $RECYCLE.BIN/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+obj/Debug/net5.0/DMKit.WebApi.csprojAssemblyReference.cache
+obj/Debug/net5.0/DMKit.WebApi.csprojAssemblyReference.cache
