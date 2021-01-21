@@ -39,4 +39,6 @@ public class Order : BaseModel
     {
         Status = OrderStatus.Completed;
     }
+
+    /** @todo: criar entidades de Sellers e Customers e os relacionamentos, estudar sobre identity server antes disso **/
 }
