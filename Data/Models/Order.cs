@@ -22,8 +22,9 @@ public class Order : BaseModel
     public decimal Price { get; private set; }
     public OrderStatus Status { get; private set; }
     public Address Address { get; private set; }
+    public decimal DeliveryTax { get; private set; }
 
-    public Order(string? observation, DateTime date, List<Product> products, Address address)
+    public Order(string? observation, DateTime date, List<Product> products, Address address, decimal deliveryTax)
     {
         Observation = observation;
         CreatedAt = DateTime.Now;
@@ -31,5 +32,11 @@ public class Order : BaseModel
         Price = products.Sum(p => p.Price);
         Status = OrderStatus.Pending;
         Address = address;
+        DeliveryTax = deliveryTax;
+    }
+
+    public void CompleteOrder()
+    {
+        Status = OrderStatus.Completed;
     }
 }
