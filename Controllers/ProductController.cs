@@ -19,10 +19,10 @@ namespace DMKit.WebApi.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
-        public Product Get()
-        {
-            return new Product();
-        }
+        // [HttpGet]
+        // public Product Get()
+        // {
+        //     return new Product();
+        // }
     }
 }
